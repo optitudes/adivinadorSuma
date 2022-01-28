@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Juego</title>
+	<link rel="stylesheet" href="misestilos.css"/>
+	<script src="logica.js"></script>
+</head>
+<body>
+	<div id="todo">
+		<header id="cabecera">
+			<h1>Adivinador de suma </h1>
+		</header>
+		<p>Este programa permite adivinar el valor del resultado de una suma antes de ingresar sus componentes.</p>
+		<label id="labelResultado">El resultado de su suma es:</label>
+		<label id="resultado" >La maquina pondrá un numero automatico aqui</label>
+
+
+		<section>
+			<form name="formulario" id="formulario" method="get">
+				<label for="primerNumero">Ingrese el primer numero de la suma(de tres digitos y positivo)</label>
+				<input type="number" name="primerNumero" id="primerNumero" min="0" max="999" required>
+				<label for="segundoNumero">Ingrese el segundo numero de la suma(de tres digitos y positivo)</label>
+				<input type="number" name="segundoNumero" id="segundoNumero" min="0" max="999" required>
+				<label id="primerAutomatico">La maquina pondrá un numero automatico aqui</label>
+				<label for="tercerNumero">Ingrese el tercer numero de la suma(de tres digitos y positivo)</label>
+				<input type="number" name="tercerNumero" id="tercerNumero" min="0" max="999" required>
+				<label id="segundoAutomatico">La maquina pondrá un numero automatico aqui</label>
+				<label id="resultadoTotal">El resultado total apacererá aquí</label>
+				<input type="button" id="boton" name="boton" value="calcularSuma">
+			</form>
+		</section>
+	</div>
+</body>
+
+</html>

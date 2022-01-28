@@ -1,0 +1,58 @@
+header,section, h1, label,form{
+	display: block;
+ }
+
+*{
+	margin: 0px;
+	padding:0px;
+ }
+
+h1{
+	font: bold 20px verdada, sans-serif;
+  }
+
+
+body{
+	text-align: center;
+  }
+#labelResultado, #resultado{
+	font-weight:bold;
+}
+
+#todo{
+	width: 960px;
+	margin: 15px auto;
+	text-align: center;
+  }
+#cabecera{
+	background: #FFFBB9;
+	border: 1px solid #999999;
+	padding: 20px;
+  }
+#seccion{
+	float: left;
+	width: 660px;
+	margin: 20px;
+ }
+label{
+	text-align: center;
+	padding: 20px;
+	border-top: 2px solid; 
+ }
+input{
+	text-align: center;
+	padding: 10px;
+	border-top: 2px solid
+}
+#boton, input{
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+
+	font-weight:bold;
+}
+#boton,input,#cabecera{
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
